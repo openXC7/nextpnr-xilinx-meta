@@ -225,6 +225,10 @@
             "dir": "OUTPUT",
             "wire": "D6LUT_MC31"
           },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "D5LUT_O5"
+          },
           "O6": {
             "dir": "OUTPUT",
             "wire": "D6LUT_O6"
@@ -372,6 +376,10 @@
           "MC31": {
             "dir": "OUTPUT",
             "wire": "C6LUT_MC31"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "C5LUT_O5"
           },
           "O6": {
             "dir": "OUTPUT",
@@ -521,6 +529,10 @@
             "dir": "OUTPUT",
             "wire": "B6LUT_MC31"
           },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "B5LUT_O5"
+          },
           "O6": {
             "dir": "OUTPUT",
             "wire": "B6LUT_O6"
@@ -668,6 +680,10 @@
           "MC31": {
             "dir": "OUTPUT",
             "wire": "A6LUT_MC31"
+          },
+          "O5": {
+            "dir": "OUTPUT",
+            "wire": "A5LUT_O5"
           },
           "O6": {
             "dir": "OUTPUT",
@@ -1896,6 +1912,31 @@
       {
         "bel": "D6LUT",
         "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "D6LUT",
+        "from_pin": "A1",
         "to_pin": "O6"
       },
       {
@@ -1951,6 +1992,31 @@
       {
         "bel": "C6LUT",
         "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "C6LUT",
+        "from_pin": "A1",
         "to_pin": "O6"
       },
       {
@@ -2006,6 +2072,31 @@
       {
         "bel": "B6LUT",
         "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "B6LUT",
+        "from_pin": "A1",
         "to_pin": "O6"
       },
       {
@@ -2055,6 +2146,31 @@
       },
       {
         "bel": "B5LUT",
+        "from_pin": "A5",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A1",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A2",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A3",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A6LUT",
+        "from_pin": "A4",
+        "to_pin": "O5"
+      },
+      {
+        "bel": "A6LUT",
         "from_pin": "A5",
         "to_pin": "O5"
       },
