@@ -38,6 +38,10 @@
           "O": {
             "dir": "OUTPUT",
             "wire": "O"
+          },
+          "ODIV2": {
+            "dir": "OUTPUT",
+            "wire": "ODIV2"
           }
         }
       }
@@ -62,6 +66,11 @@
       "O": {
         "primary": "O",
         "wire": "O",
+        "dir": "OUTPUT"
+      },
+      "ODIV2": {
+        "primary": "ODIV2",
+        "wire": "ODIV2",
         "dir": "OUTPUT"
       }
     }
